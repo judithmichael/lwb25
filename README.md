@@ -9,7 +9,7 @@ The Language Workbench (LWB) Challenge 2025 aims to understand the features diff
 
 ![{974A5F0D-A117-4DDA-B522-DB805F94CB76}](https://github.com/user-attachments/assets/d9e28b78-1042-4eb9-a698-32b44a668bc7)
 
-[The Challenge Description](https://github.com/cwi-swat/lwb2025/blob/main/docs/Ql.pdf)
+[The Challenge Description](https://github.com/judithmichael/lwb25/blob/main/ChallengeTask.pdf)
 
 ## The participants
 
