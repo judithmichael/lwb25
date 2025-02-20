@@ -14,35 +14,78 @@ The following feature model describes the main features of the Questionnaire Lan
 
 
 ## The participants
+(in alphabetic order)
 
 ### CINCO/CINCO Cloud 
+* LWB Description:
+* Contributors:
+* The Implementation
 
 ### Eclipse Sirius Web
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### Freon
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### GEMOC 
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### Gentleman
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### jjodel 
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### Langium 
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### MetaEdit+
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### MontiCore 
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### MPS 
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### Neverlang
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### Rascal
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### Spoofax 
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ### TextX
-
+* LWB Description:
+* Contributors:
+* The Implementation
+  
 ## Features of language workbenches
 
 We use a feature model capturing their major features to compare the different language workbenches better.
