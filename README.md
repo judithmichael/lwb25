@@ -3,6 +3,7 @@
 The Language Workbench (LWB) Challenge 2025 aims to understand the features different LWBs cover.
 Submissions (mostly, but not exclusively, by the developers of the tools in question) implement the challenge and document it so that others can understand the implementation. Tackling a common challenge allows a better understanding of the similarities and differences between different workbenches, the design decisions underlying them, their capabilities, and their strengths and weaknesses.
 
+This page documents the shared effort of the LWB Challenge 2025 set up by Judith Michael and Tijs van der Storm, the literature survey by Jérôme Pfeiffer, Théo Giraudet, Arnaud Blouin, Benoit Combemale, and Andreas Wortmann analyzing common features of language workbenches in literature and the implementation and documentation of all participants of the LWB Challenge 2025.
 
 ## The task: Realizing the Questionnaire Language
 
