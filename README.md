@@ -7,7 +7,9 @@ This page documents the shared effort of the LWB Challenge 2025 set up by Judith
 
 ## The task: Realizing the Questionnaire Language
 
-The following feature model describes the main features of the Questionnaire Language (QL), which should be realized using the participating Language Workbenches. Find a detailed [Challenge Description](https://github.com/judithmichael/lwb25/blob/main/ChallengeTask.pdf) here.
+The following feature model describes the main features of the Questionnaire Language (QL), which should be realized using the participating Language Workbenches. 
+* [Challenge Description](https://github.com/judithmichael/lwb25/blob/main/ChallengeTask.pdf)
+* [QL Features Table Template](https://github.com/judithmichael/lwb25/blob/main/QLFeatures_Table_Template.xlsx)
 
 
 ![{974A5F0D-A117-4DDA-B522-DB805F94CB76}](https://github.com/user-attachments/assets/d9e28b78-1042-4eb9-a698-32b44a668bc7)
