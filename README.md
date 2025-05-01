@@ -82,9 +82,10 @@ MontiCore is a language workbench for the efficient engineering and provision of
 ***The Implementation***: https://github.com/MontiCore/lwb-competition
   
 ### Neverlang
-***LWB Description***
+Neverlang was born in 2009 as a framework for the creation of sectional compilers. The original implementation leveraged AspectJ to implement the _syntax-directed translation_ technique by weaving the semantics with the respective syntactic AST nodes. A novel version was developed in 2012; it integrated the Dynamically EXTEnsible Recognizer (**DEXTER**) with a revised and bootstrapped Neverlang compiler. Since then, the Neverlang compiler was evolved to include several new features, such as (i) polyglot semantic actions for all JVM-based languages, as well as for others, provided that a translator is internally defined, (ii) integrated _Language Product Line_ (LPL) support, (iii) _Language Server Protocol_ (LSP) and _Debug Adapter Protocol_ (DAP), (iv) and new syntactic constructs to support smoother and more _fine-grained_ language composition.
+Another peculiar aspect of Neverlang is the ability to update the syntax and semantics of a language at runtime, exploiting the _dynamic software updating_ technique. Neverlang was at the basis of several international scientific publications and was used in industrial settings. It provides _editing support_ for the languages developed with it using LSP, providing language-specific services, such as semantic highlighting, code completion, and error checking, while the DAP is used to provide debugging capabilities, such as breakpoints, stepping, and variable inspection. Furthermore, the Neverlang ecosystem provides a _plugin generator_ for widely used editors, such as _Visual Studio Code_.
 
-***Contributors***:
+***Contributors***: Walter Cazzola, Federico Bruzzone, Luca Favalli
 
 ***The Implementation***:
   
