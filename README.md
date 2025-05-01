@@ -24,69 +24,64 @@ The following feature model describes the main features of the Questionnaire Lan
 * The Implementation
 
 ### Eclipse Sirius Web
-* LWB Description:
-* Contributors:
-* The Implementation
-  
-### Freon
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***: Sirius Web is a language workbench, i.e., a tool to create languages (and DSL - Domain Specific Language) as well as their modeling environments (IDE). Sirius Web is a cloud-native application with a default frontend working on a web browser. It is the successor of the Sirius Desktop project, which was a desktop application. It specializes in the development of graphical modeling languages and proposes the development of different kinds of concrete syntax (diagram, form, table, tree, deck and gantt). The development of a language is realized by using three different meta-languages for different concerns of a language: Domain DSL, to describe the abstract syntax of the language. View DSL, to describe the concrete syntax of the language. AQL (Acceleo Query Language), embedded in the View DSL, to describe the mapping between the abstract and concrete syntax. Sirius Web does not currently provide a specific language to describe the semantics, but the language designer can fall back on Java or other technologies such as Acceleo to do this. The three languages can be used directly on the Sirius Web web application, to create languages in a low-code way, or programmatically by using Sirius Web as a framework. Through the programmatic API, the language designer can directly use Ecore metamodels instead of the Domain DSL.
+* ***Contributors***: Théo Giraudet
+* ***The Implementation***: https://github.com/ObeoNetwork/lwc25/tree/main
   
 ### GEMOC 
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***:
+* ***Contributors***:
+* ***The Implementation***:
   
 ### Gentleman
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***:
+* ***Contributors***:
+* ***The Implementation***:
   
 ### jjodel 
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***:
+* ***Contributors***:
+* ***The Implementation***:
   
 ### Langium 
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***:
+* ***Contributors***:
+* ***The Implementation***:
   
 ### MetaEdit+
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***:
+* ***Contributors***:
+* ***The Implementation***:
   
 ### MontiCore 
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***:
+* ***Contributors***:
+* ***The Implementation***:
   
 ### MPS 
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***:
+* ***Contributors***:
+* ***The Implementation***:
   
 ### Neverlang
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***:
+* ***Contributors***:
+* ***The Implementation***:
   
 ### Rascal
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***:
+* ***Contributors***:
+* ***The Implementation***:
   
 ### Spoofax 
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***:
+* ***Contributors***:
+* ***The Implementation***:
   
 ### TextX
-* LWB Description:
-* Contributors:
-* The Implementation
+* ***LWB Description***:
+* ***Contributors***:
+* ***The Implementation***:
   
 ## Features of language workbenches
 
