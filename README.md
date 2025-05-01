@@ -75,7 +75,7 @@ The following feature model describes the main features of the Questionnaire Lan
   
 ### Spoofax 
 * ***LWB Description***:
-* ***Contributors***:
+* ***Contributors***: Daniel A. A. Pelsmaeker, Jeff Smits
 * ***The Implementation***:
   
 ### TextX
