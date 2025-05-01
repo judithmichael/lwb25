@@ -54,9 +54,9 @@ The following feature model describes the main features of the Questionnaire Lan
 * ***The Implementation***:
   
 ### MontiCore 
-* ***LWB Description***:
-* ***Contributors***:
-* ***The Implementation***:
+* ***LWB Description***: MontiCore is a language workbench for the efficient engineering and provision of textual software languages. In MontiCore, languages are realized based on context-free grammars (CFGs) in EBNF. This enables language engineers to define concrete and abstract syntax simultaneously. Based on the production rules defined within a CFG, MontiCore generates the required infrastructure for model (or program) processing. The derived processing software is based on the Java programming language. It comprises basic components such as a parser, abstract syntax classes, as well as infrastructure for context conditions (CoCos), visitors, and symbol management. A core feature of MontiCore is the compositional software language engineering (SLE). It supports seamlessly integrating various language modules or even fully-fletched languages via different composition techniques: Inheritance, conservative extension, language embedding (or unification), aggregation. These integration techniques include composing the holistic generated infrastructure of the languages as well as handwritten extensions. The parser, abstract syntax, CoCos and Somboltable are designed for composability and black-box reusability. Generally, MontiCore generatively supports various design patterns that are specifically tailored with language composition in mind. Additionally, MontiCore provides an extensive library of reusable language components. These enable developers to combine different variants of, for instance, expressions, statements, literals, or types and embed these in their own language.
+* ***Contributors***: Bernhard Rumpe, Alex Lüpges, Nico Jansen 
+* ***The Implementation***: https://github.com/MontiCore/lwb-competition 
   
 ### MPS 
 * ***LWB Description***:
