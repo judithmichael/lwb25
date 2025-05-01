@@ -37,6 +37,11 @@ The following feature model describes the main features of the Questionnaire Lan
 * ***LWB Description***:
 * ***Contributors***:
 * ***The Implementation***:
+
+### Jetbrains MPS 
+* ***LWB Description***: JetBrains MPS is an open‐source language workbench designed for creating and using domain-specific languages (DSLs) through a unique projectional editing approach. Instead of relying on traditional text parsing, MPS stores code directly as an abstract syntax tree (AST), allowing developers to mix textual, graphical, and tabular notations seamlessly. This method eliminates grammatical ambiguities and supports the flexible composition and reuse of language components. Key features include the ability to define custom languages by setting up abstract syntax, editor projections, type systems, and constraints. MPS enables direct manipulation of the AST with multiple notations and provides built-in code generation, which translates high-level DSL code into lower-level executable code in languages like Java or C. The integrated development environment mirrors modern IDE functionalities such as code completion, refactoring, and debugging, making it a comprehensive tool for language-oriented programming. Originating from early 2000s research at JetBrains and inspired by the Language-Oriented Programming paradigm, MPS evolved from an experimental prototype into a production-ready platform. Public beta versions appeared around 2007–2008, with a stable version launched in 2009 under an open-source license. Its maturity has fostered adoption in diverse fields—ranging from embedded systems and enterprise applications to complex business logic and academic research—demonstrating its practical impact on both industry and education. Overall, JetBrains MPS has redefined software development by empowering developers and domain experts to tailor languages specifically to their problems, thereby enhancing productivity and precision in crafting complex systems.
+* ***Contributors***: Klemens Schindler, Eugen Schindler
+* ***The Implementation***: https://github.com/DSLFoundry/mps-lwc25
   
 ### jjodel 
 * ***LWB Description***:
@@ -56,12 +61,7 @@ The following feature model describes the main features of the Questionnaire Lan
 ### MontiCore 
 * ***LWB Description***: MontiCore is a language workbench for the efficient engineering and provision of textual software languages. In MontiCore, languages are realized based on context-free grammars (CFGs) in EBNF. This enables language engineers to define concrete and abstract syntax simultaneously. Based on the production rules defined within a CFG, MontiCore generates the required infrastructure for model (or program) processing. The derived processing software is based on the Java programming language. It comprises basic components such as a parser, abstract syntax classes, as well as infrastructure for context conditions (CoCos), visitors, and symbol management. A core feature of MontiCore is the compositional software language engineering (SLE). It supports seamlessly integrating various language modules or even fully-fletched languages via different composition techniques: Inheritance, conservative extension, language embedding (or unification), aggregation. These integration techniques include composing the holistic generated infrastructure of the languages as well as handwritten extensions. The parser, abstract syntax, CoCos and Somboltable are designed for composability and black-box reusability. Generally, MontiCore generatively supports various design patterns that are specifically tailored with language composition in mind. Additionally, MontiCore provides an extensive library of reusable language components. These enable developers to combine different variants of, for instance, expressions, statements, literals, or types and embed these in their own language.
 * ***Contributors***: Bernhard Rumpe, Alex Lüpges, Nico Jansen 
-* ***The Implementation***: https://github.com/MontiCore/lwb-competition 
-  
-### MPS 
-* ***LWB Description***:
-* ***Contributors***:
-* ***The Implementation***:
+* ***The Implementation***: https://github.com/MontiCore/lwb-competition
   
 ### Neverlang
 * ***LWB Description***:
