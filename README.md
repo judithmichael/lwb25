@@ -96,9 +96,9 @@ Another peculiar aspect of Neverlang is the ability to update the syntax and sem
 ### Rascal
 ***LWB Description***
 
-***Contributors***:
+***Contributors***: Tijs van der Storm
 
-***The Implementation***:
+***The Implementation***: https://github.com/cwi-swat/tiny-ql
   
 ### Spoofax 
 ***LWB Description***
