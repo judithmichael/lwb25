@@ -20,6 +20,7 @@ The following feature model describes the main features of the Questionnaire Lan
 
 ### CINCO/CINCO Cloud 
 ***LWB Description***
+Cinco Cloud is a holistic, cloud-native language workbench platform that has evolved from the CINCO desktop application since 2021. The platform allows the creation, distribution, and usage of graphical domain-specific languages (DSLs) and offers extensive user, project, and access management, along with the capability to deploy editors for language designers and end users. An editor enables users to design graphical DSLs, which are primarily based on graph models comprised of different node, edge, and container types. Language designers can specify languages and create models of those DSLs directly in the same environment. Syntactic and semantic changes are immediately reflected on the modeling canvas, accelerating the entire design process. Languages are specified using two textual DSLs: the Meta Graph Language (MGL) for the abstract syntax (metamodel) and static semantics, and the Meta Style Language (MSL) for the concrete syntax. Semantics and user-facing functionalities are implemented using general-purpose languages (GPLs) and an API in the editor. The API provides various implementable interfaces, such as generators, validators, hooks for user interaction, including double-click actions and CRUD operations, as well as a custom serialization logic for models. With the push of a button, language designers can distribute their languages to end users, who can then easily deploy corresponding editors directly on the web platform. The project is open source and modular. Editors and canvases can be deployed independently of the Cinco Cloud platform and integrated into other web-based projects or systems.
 
 ***Contributors***: Bernhard Steffen, Stefan Naujokat, Daniel Busch, Daniel Sami Mitwalli
 
@@ -34,15 +35,18 @@ Sirius Web is a language workbench, i.e., a tool to create languages (and DSL - 
   
 ### GEMOC 
 ***LWB Description***
+The origins of the GEMOC Studio trace back to an initial ANR-funded research project launched in 2011, prior to the formalization of the GEMOC initiative (2013). Initially developed as a research platform to explore model execution and coordination of heterogeneous modeling languages, the Studio has since evolved through successive research collaborations and open-source contributions. Over time, it has matured into a modular workbench built on Eclipse technologies, primarily used in research and transfer contexts for designing and executing DSMLs. Today, the GEMOC Studio is hosted as an official project under the Eclipse Foundation, benefiting from a stable and open governance structure within the broader Eclipse Modeling ecosystem.
+The GEMOC Studio aims to offer a comprehensive environment for designing, executing, and coordinating DSMLs, with a particular focus on executable modeling and multi-language system integration.
+It integrates and assembles several major existing Eclipse technologies for language engineering, including EMF (Eclipse Modeling Framework) for metamodeling and model management, Sirius Desktop for the definition of graphical editors, and Xtext for the specification of textual editors.
 
-***Contributors***:
+***Contributors***: Didier Vojtisek, Benoit Combemale
 
-***The Implementation***:
+***The Implementation***: https://github.com/gemoc/ql-gemoc-lwb2025
   
 ### Gentleman
 ***LWB Description***
 
-***Contributors***:
+***Contributors***: 
 
 ***The Implementation***:
 
@@ -105,10 +109,13 @@ Another peculiar aspect of Neverlang is the ability to update the syntax and sem
   
 ### TextX
 ***LWB Description***
+textX (since 2014, https://github.com/textX/) is a Python meta-language — a language for defining domain-specific languages (DSLs). From a single grammar definition, textX automatically generates a meta-model (represented as Python
+classes) and a corresponding parser. This parser processes expressions written in the defined DSL and constructs a graph of Python objects (the model) that conforms to the meta-model. Initially inspired by Eclipse Xtext, textX was conceived as a lightweight Python alternative. However, it has since evolved with distinct differences. textX follows a modular architecture, enabling languages and generators to be developed as independent Python projects.
+Additional tooling — such as Language Server Protocol (LSP) support, syntax highlighting, project scaffolding, and template-engine integration — is provided by separate projects under the textX organization.
 
-***Contributors***:
+***Contributors***: Igor Dejanovic
 
-***The Implementation***:
+***The Implementation***: https://github.com/igordejanovic/lwc2025
   
 ## Features of language workbenches
 
