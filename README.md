@@ -120,9 +120,9 @@ We use a feature model capturing their major features to compare the different l
 This feature model captures the design space of language workbenches as analyzed in the literature by Jérôme Pfeiffer, Théo Giraudet, Arnaud Blouin, Benoit Combemale, and Andreas Wortmann. 
 
 * [Language Workbench Feature Diagram](https://github.com/judithmichael/lwb25/blob/main/LanguageWorkbench_FeatureDiagram.png)
-* [Language Workbench Description](https://github.com/judithmichael/lwb25/blob/main/LanguageWorkbench_Description.png)
+* [Language Workbench Description](https://github.com/judithmichael/lwb25/blob/main/LanguageWorkbench_Description.pdf)
 * [Modeling Workbench Feature Diagram](https://github.com/judithmichael/lwb25/blob/main/ModelingWorkbench_FeatureDiagram.png)
-* [Modeling Workbench Description](https://github.com/judithmichael/lwb25/blob/main/ModelingWorkbench_Description.png)
+* [Modeling Workbench Description](https://github.com/judithmichael/lwb25/blob/main/ModelingWorkbench_Description.pdf)
 
 
 
