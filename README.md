@@ -63,11 +63,11 @@ JetBrains MPS is an open‐source language workbench designed for creating and u
 ***The Implementation***:
   
 ### Langium 
-***LWB Description***
+Eclipse Langium is a language engineering tool for TypeScript with built-in support for the Language Server Protocol. The framework is an all-in-one solution for building programming languages, domain specific languages, code generators, interpreters and compilers. It was designed in 2021 as a spiritual successor to the Eclipse Xtext framework. In 2025, now at major version 4, it has iterated on the concept, improved in places that were lacking, and generally matured into a robust framework with adopters all over the world. With [more than one million downloads per week](https://www.npmjs.com/package/langium), it is by far the most used language engineering tool in the JavaScript ecosystem.
 
-***Contributors***:
+***Contributors***: Mark Sujew 
 
-***The Implementation***:
+***The Implementation***: https://github.com/msujew/langium-lwb25
   
 ### MetaEdit+
 ***LWB Description***
