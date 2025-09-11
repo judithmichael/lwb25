@@ -100,10 +100,11 @@ Another peculiar aspect of Neverlang is the ability to update the syntax and sem
   
 ### Spoofax 
 ***LWB Description***
+Spoofax (at https://spoofax.dev/) is a language workbench that supports developing textual domain-specific languages using declarative meta-DSLs for syntax (SDF3), name binding (Statix), and transformations (Stratego 2). From such specifications, Spoofax generates and loads an IDE plugin that allows the language to be used in an existing IDE, currently Eclipse. Spoofax is used to implement its own meta-DSLs. Spoofax has been used to develop the WebDSL web application DSL, and is being used by Oracle and Philips for internal projects.
 
-***Contributors***:
+***Contributors***: Jeff Smits, Daniel A. A. Pelsmaeker
 
-***The Implementation***:
+***The Implementation***: https://github.com/MetaBorgCube/metaborg-ql/tree/lwc-2025 (`lwc-2025` branch)
   
 ### TextX
 textX (since 2014, https://github.com/textX/) is a Python meta-language — a language for defining domain-specific languages (DSLs). From a single grammar definition, textX automatically generates a meta-model (represented as Python
