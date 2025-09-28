@@ -56,9 +56,19 @@ JetBrains MPS is an open‐source language workbench designed for creating and u
 ***The Implementation***: https://github.com/DSLFoundry/mps-lwc25
   
 ### jjodel 
-***LWB Description***
+Jjodel1 is a cloud-based reflective modeling platform designed to reduce the cognitive and technical complexity traditionally associated with Model-Driven Engineering (MDE). Unlike desktop-based tools, Jjodel runs entirely in the browser2, requiring no installation, making it especially suited for education, experimentation, and collaborative settings.
+Its main characteristics include:
+A) Concrete syntax focus: Jjodel emphasizes the visual and textual appearance of models, not just their
+abstract structure;
+B) Responsiveness: Built on modern web technologies (React, JSX), Jjodel provides real-time feedback and
+interaction, adapting fluidly across devices;
+C) Viewpoints and modularity: A language is specified by a metamodel (abstract syntax) and several
+viewpoints for syntax, validation, and semantics;
+D) Beyond Ecore: While compatible with Ecore, Jjodel extends it with singleton classes and objects and multi-view modeling.
+This flexibility and a quasi low-code approach make Jjodel a modern workbench for building domain-specific
+languages (DSLs) and their editors, adaptable for both industrial and educational contexts.
 
-***Contributors***:
+***Contributors***: Alfonso Pierantoniom Damiano Di Vincenzo
 
 ***The Implementation***:
   
