@@ -80,11 +80,11 @@ Eclipse Langium is a language engineering tool for TypeScript with built-in supp
 ***The Implementation***: https://github.com/msujew/langium-lwb25
   
 ### MetaEdit+
-***LWB Description***
+MetaEdit+ is a mature graphical language workbench that handles very large models, teams and languages. By applying domain-specific modeling to the task of creating languages, it makes creating them fast, easy and robust. With a 30-year history of both the tool and the earliest industrial customer languages still in use, MetaEdit+ ensures that investments in creating and using DSLs are protected. In MetaEdit+ all work is automatically integrated and versioned, with no lockouts and no manual diff or merge. Users can work individually, or with a shared multi-user repository, or on the cloud with no slowdown even with gigabyte repositories. The support for evolution and co-evolution has been a key part of MetaEdit+ from the start. Tool version changes and language updates do not break functionality or existing models— as illustrated by the LWC 2013 QL implementation still working after 5 major versions of MetaEdit+.
 
-***Contributors***:
+***Contributors***: Steven Kelly, Risto Pohjonen, Juha-Pekka Tolvanen
 
-***The Implementation***:
+***The Implementation***: https://github.com/stevekmcc/LWC2025 
   
 ### MontiCore 
 MontiCore is a language workbench for the efficient engineering and provision of textual software languages. In MontiCore, languages are realized based on context-free grammars (CFGs) in EBNF. This enables language engineers to define concrete and abstract syntax simultaneously. Based on the production rules defined within a CFG, MontiCore generates the required infrastructure for model (or program) processing. The derived processing software is based on the Java programming language. It comprises basic components such as a parser, abstract syntax classes, as well as infrastructure for context conditions (CoCos), visitors, and symbol management. A core feature of MontiCore is the compositional software language engineering (SLE). It supports seamlessly integrating various language modules or even fully-fletched languages via different composition techniques: Inheritance, conservative extension, language embedding (or unification), aggregation. These integration techniques include composing the holistic generated infrastructure of the languages as well as handwritten extensions. The parser, abstract syntax, CoCos and Somboltable are designed for composability and black-box reusability. Generally, MontiCore generatively supports various design patterns that are specifically tailored with language composition in mind. Additionally, MontiCore provides an extensive library of reusable language components. These enable developers to combine different variants of, for instance, expressions, statements, literals, or types and embed these in their own language.
